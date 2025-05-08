@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+.table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.head {
+    border: none;
+}
+
+thead img {
+    margin: .5em 1em .5em .5em;
+}
+
+.table thead,
+.table tfoot {
+    background-color: black;
+}
+
+.table th,
+.table td {
+    border: 1px solid black;
+    padding: 4px 5px;
+    text-align: center;
+}
+
+.table td:last-of-type {
+    text-align: center;
+}
+
+.table tbody>tr:nth-of-type(even) {
+    background-color: black;
+}
